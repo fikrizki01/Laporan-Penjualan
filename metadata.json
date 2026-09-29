@@ -1,0 +1,8 @@
+{
+  "name": "Kasir Nominal",
+  "description": "Aplikasi kasir hitung nominal penjualan per kilogram dengan manajemen stok FIFO, laba rugi, dan pencatatan pengeluaran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

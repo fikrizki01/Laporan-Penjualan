@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": 104,
+      "name": "Telur Biasa",
+      "price": 26000,
+      "modal": 23000,
+      "gram": 0,
+      "batches": [],
+      "unit": "kg",
+      "estimatedGramPerPiece": 62.5,
+      "archived": true
+    },
+    {
+      "id": 141,
+      "name": "Telur Biasa",
+      "price": 25500,
+      "modal": 24000,
+      "gram": 13662,
+      "unit": "kg",
+      "batches": [
+        {
+          "id": 142,
+          "gram": 13662,
+          "cost": 24000,
+          "createdAt": 1790680685869,
+          "supplier": "Stok Awal"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "id": 105,
+      "name": "Telur Omega",
+      "price": 32000,
+      "modal": 27000,
+      "gram": 0,
+      "batches": [],
+      "unit": "kg",
+      "estimatedGramPerPiece": 65,
+      "archived": false
+    },
+    {
+      "id": 106,
+      "name": "Telur Puyuh",
+      "price": 38000,
+      "modal": 32000,
+      "gram": 0,
+      "batches": [],
+      "unit": "kg",
+      "estimatedGramPerPiece": 10,
+      "archived": false
+    },
+    {
+      "id": 151,
+      "name": "Minyak Kita 1 L",
+      "price": 16000,
+      "modal": 14500,
+      "gram": 0,
+      "batches": [],
+      "unit": "pcs",
+      "archived": false
+    },
+    {
+      "id": 152,
+      "name": "Minyak Kita 2 L",
+      "price": 32000,
+      "modal": 0,
+      "gram": 0,
+      "batches": [],
+      "unit": "pcs",
+      "archived": false
+    },
+    {
+      "id": 153,
+      "name": "Minyak Premium",
+      "price": 21000,
+      "modal": 41700,
+      "gram": 0,
+      "batches": [],
+      "unit": "pcs",
+      "archived": false
+    }
+  ],
+  "sales": [],
+  "exp": [],
+  "purchases": [
+    {
+      "id": 121,
+      "itemId": 104,
+      "itemName": "Telur Biasa",
+      "supplier": "Pak Slamet",
+      "unit": "kg",
+      "isIkat": true,
+      "ikatCount": 10,
+      "kgPerIkat": 15,
+      "qty": 150000,
+      "costPerUnit": 23000,
+      "totalCost": 3450000,
+      "date": 1790664431607,
+      "batchId": 120,
+      "note": "Kulakan peternak Blitar"
+    }
+  ],
+  "adjustments": [
+    {
+      "id": 139,
+      "itemId": 104,
+      "itemName": "Telur Biasa",
+      "unit": "kg",
+      "qty": 5000,
+      "reason": "lainnya",
+      "note": "Pengurangan stok manual",
+      "hppValue": 115000,
+      "used": [
+        {
+          "bid": 120,
+          "cost": 23000,
+          "gram": 5000,
+          "createdAt": 1790664431607,
+          "purchaseId": 121,
+          "supplier": "Pak Slamet"
+        }
+      ],
+      "t": 1790680476129,
+      "by": "owner"
+    }
+  ],
+  "allowances": [],
+  "staffTokens": [
+    {
+      "id": "st-fd546ec1-87eb-49f5-8fc0-5dd3f8506c9f",
+      "label": "Kasir UUID",
+      "tokenHash": "5d9710df2579d26692a79d4a93eea12db5998158c1c8f21e2c9e1a17ecc98700",
+      "createdAt": 1790668179042,
+      "revoked": false
+    },
+    {
+      "id": "st-1790667747847",
+      "label": "HP Kasir Sesi",
+      "tokenHash": "36d20320c2bcd9cbae5ea9fd583110c6937992970e44ceaf83a652099985a3f0",
+      "createdAt": 1790667747847,
+      "revoked": false
+    },
+    {
+      "id": "st-1790667519055",
+      "label": "HP Kasir Test",
+      "tokenHash": "9dd1d8ccb88c8add73c1768a15b9c4140d5158dba2e5e3fe19d052d9e8797d22",
+      "createdAt": 1790667519055,
+      "revoked": false
+    },
+    {
+      "id": "st-1790666500832",
+      "label": "HP Kasir Uji",
+      "tokenHash": "7bf41338f0ff3a4eb283d11dd5489841d6fa54c31bedc3e20b43f6dbbcb26522",
+      "createdAt": 1790666500832,
+      "revoked": false
+    }
+  ],
+  "next": 154,
+  "pinSalt": "bf2f7227bca16a2d923eadb048c2b5e3",
+  "pinHash": "2833efe3382496feccdcf915f4a3c4c89f18e95599825ad3cabb0d8f2bdeedb5181ae97cdf0c77182731a2b3fef7a0e3288f40acd853ac0236348b7cd8622cc5",
+  "schemaVersion": 3
+}
